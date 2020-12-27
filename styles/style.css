@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  font-family: "Andika New Basic", sans-serif;
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #e3f2fd !important;
+}
+
+h1 {
+  font: normal 15pt "Pacifico", cursive !important;
+  text-align: center;
+}
+
+.container {
+  width: 35vh !important;
+  height: 50vh;
+  padding: 30px;
+  background: #0d6dfdbd;
+  border-radius: 50px 3px 50px 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+
+  /* display: flex;
+  justify-content: center; */
+
+  margin-top: 30px;
+}
+
+footer,
+p {
+  color: black;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 70vw !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 60vw !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 60vw !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 45vw !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 35vw !important;
+  }
+}
