@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  background-color: #8a2be2 !important;
+}
+
+
+.container {
+    background: white;
+}
+
+footer {
+  background-color: black;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  padding: 10px 30px;
+  color: white;
+  text-align: center;
+}
