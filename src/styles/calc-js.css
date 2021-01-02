@@ -10,23 +10,17 @@ body {
   background-color: #8a2be2 !important;
 }
 
-/* section {
-  margin-top: 10rem;
-  padding: 10px;
-} */
-
 .container {
-  background-color: white;
-  width: auto !important;
-  height: auto;
+  width: 90vh !important;
+  height: 50vh;
   padding: 30px;
   border-radius: 50px 3px 50px 3px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+  margin-top: 10vh;
 }
 
 #bg {
-  border-radius: 50px;
-  padding: 15px;
+  background: white !important;
 }
 
 h1 {
@@ -43,48 +37,16 @@ hr {
   padding: 1px;
 }
 
-.btn-success {
-  width: 100%;
-}
-
 .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: auto;
-  border-radius: 50px;
+  height: 100%;
 }
 
 input {
   border-radius: 15px;
-}
-
-@media (min-width: 576px) {
-  .center {
-    width: 20vw;
-  }
-}
-
-@media (min-width: 768px) {
-  .center {
-    width: 60vw;
-  }
-}
-
-@media (min-width: 992px) {
-  .center {
-    width: 60vw;
-  }
-}
-
-@media (min-width: 1200px) {
-  .center {
-    width: 30vw;
-  }
-}
-
-@media (min-width: 1400px) {
-  .center {
-    width: 30vw;
-  }
 }
 
 footer {
