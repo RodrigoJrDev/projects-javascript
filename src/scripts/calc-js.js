@@ -17,7 +17,7 @@ function verificar() {
       gênero = "Homem";
       if (idade >= 0 && idade < 3) {
         // Recém Nascido - Masculino
-        imagem.setAttribute("src", "/src/images/crianca-masculina.png");
+        imagem.setAttribute("src", "/projects-javascript/src/images/crianca-masculina.png");
       } else if (idade >= 4 && idade < 8) {
         // Criança - Masculino
       } else if (idade >= 9 && idade < 12) {
@@ -41,7 +41,7 @@ function verificar() {
       gênero = "Feminino";
       if (idade >= 0 && idade < 3) {
         // Recém Nascido - Masculino
-        imagem.setAttribute("src", "/src/images/bebe-feminina.jpg");
+        imagem.setAttribute("src", "/projects-javascript/src/images/bebe-feminina.jpg");
       } else if (idade >= 4 && idade < 8) {
         // Criança - Masculino
       } else if (idade >= 9 && idade < 12) {
